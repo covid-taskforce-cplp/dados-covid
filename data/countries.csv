@@ -1,0 +1,250 @@
+"name","alpha-2","alpha-3","country-code","region","sub-region","intermediate-region","region-code","sub-region-code","intermediate-region-code"
+"Afghanistan","AF","AFG",4,"Asia","Southern Asia",,142,34,
+"Åland Islands","AX","ALA",248,"Europe","Northern Europe",,150,154,
+"Albania","AL","ALB",8,"Europe","Southern Europe",,150,39,
+"Algeria","DZ","DZA",12,"Africa","Northern Africa",,2,15,
+"American Samoa","AS","ASM",16,"Oceania","Polynesia",,9,61,
+"Andorra","AD","AND",20,"Europe","Southern Europe",,150,39,
+"Angola","AO","AGO",24,"Africa","Sub-Saharan Africa","Middle Africa",2,202,17
+"Anguilla","AI","AIA",660,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Antarctica","AQ","ATA",10,,,,,,
+"Antigua and Barbuda","AG","ATG",28,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Argentina","AR","ARG",32,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Armenia","AM","ARM",51,"Asia","Western Asia",,142,145,
+"Aruba","AW","ABW",533,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Australia","AU","AUS",36,"Oceania","Australia and New Zealand",,9,53,
+"Austria","AT","AUT",40,"Europe","Western Europe",,150,155,
+"Azerbaijan","AZ","AZE",31,"Asia","Western Asia",,142,145,
+"Bahamas","BS","BHS",44,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Bahrain","BH","BHR",48,"Asia","Western Asia",,142,145,
+"Bangladesh","BD","BGD",50,"Asia","Southern Asia",,142,34,
+"Barbados","BB","BRB",52,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Belarus","BY","BLR",112,"Europe","Eastern Europe",,150,151,
+"Belgium","BE","BEL",56,"Europe","Western Europe",,150,155,
+"Belize","BZ","BLZ",84,"Americas","Latin America and the Caribbean","Central America",19,419,13
+"Benin","BJ","BEN",204,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Bermuda","BM","BMU",60,"Americas","Northern America",,19,21,
+"Bhutan","BT","BTN",64,"Asia","Southern Asia",,142,34,
+"Bolivia (Plurinational State of)","BO","BOL",68,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Bonaire, Sint Eustatius and Saba","BQ","BES",535,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Bosnia and Herzegovina","BA","BIH",70,"Europe","Southern Europe",,150,39,
+"Botswana","BW","BWA",72,"Africa","Sub-Saharan Africa","Southern Africa",2,202,18
+"Bouvet Island","BV","BVT",74,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Brazil","BR","BRA",76,"Americas","Latin America and the Caribbean","South America",19,419,5
+"British Indian Ocean Territory","IO","IOT",86,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Brunei Darussalam","BN","BRN",96,"Asia","South-eastern Asia",,142,35,
+"Bulgaria","BG","BGR",100,"Europe","Eastern Europe",,150,151,
+"Burkina Faso","BF","BFA",854,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Burundi","BI","BDI",108,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Cabo Verde","CV","CPV",132,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Cambodia","KH","KHM",116,"Asia","South-eastern Asia",,142,35,
+"Cameroon","CM","CMR",120,"Africa","Sub-Saharan Africa","Middle Africa",2,202,17
+"Canada","CA","CAN",124,"Americas","Northern America",,19,21,
+"Cayman Islands","KY","CYM",136,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Central African Republic","CF","CAF",140,"Africa","Sub-Saharan Africa","Middle Africa",2,202,17
+"Chad","TD","TCD",148,"Africa","Sub-Saharan Africa","Middle Africa",2,202,17
+"Chile","CL","CHL",152,"Americas","Latin America and the Caribbean","South America",19,419,5
+"China","CN","CHN",156,"Asia","Eastern Asia",,142,30,
+"Christmas Island","CX","CXR",162,"Oceania","Australia and New Zealand",,9,53,
+"Cocos (Keeling) Islands","CC","CCK",166,"Oceania","Australia and New Zealand",,9,53,
+"Colombia","CO","COL",170,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Comoros","KM","COM",174,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Congo","CG","COG",178,"Africa","Sub-Saharan Africa","Middle Africa",2,202,17
+"Congo, Democratic Republic of the","CD","COD",180,"Africa","Sub-Saharan Africa","Middle Africa",2,202,17
+"Cook Islands","CK","COK",184,"Oceania","Polynesia",,9,61,
+"Costa Rica","CR","CRI",188,"Americas","Latin America and the Caribbean","Central America",19,419,13
+"Côte d'Ivoire","CI","CIV",384,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Croatia","HR","HRV",191,"Europe","Southern Europe",,150,39,
+"Cuba","CU","CUB",192,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Curaçao","CW","CUW",531,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Cyprus","CY","CYP",196,"Asia","Western Asia",,142,145,
+"Czechia","CZ","CZE",203,"Europe","Eastern Europe",,150,151,
+"Denmark","DK","DNK",208,"Europe","Northern Europe",,150,154,
+"Djibouti","DJ","DJI",262,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Dominica","DM","DMA",212,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Dominican Republic","DO","DOM",214,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Ecuador","EC","ECU",218,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Egypt","EG","EGY",818,"Africa","Northern Africa",,2,15,
+"El Salvador","SV","SLV",222,"Americas","Latin America and the Caribbean","Central America",19,419,13
+"Equatorial Guinea","GQ","GNQ",226,"Africa","Sub-Saharan Africa","Middle Africa",2,202,17
+"Eritrea","ER","ERI",232,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Estonia","EE","EST",233,"Europe","Northern Europe",,150,154,
+"Eswatini","SZ","SWZ",748,"Africa","Sub-Saharan Africa","Southern Africa",2,202,18
+"Ethiopia","ET","ETH",231,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Falkland Islands (Malvinas)","FK","FLK",238,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Faroe Islands","FO","FRO",234,"Europe","Northern Europe",,150,154,
+"Fiji","FJ","FJI",242,"Oceania","Melanesia",,9,54,
+"Finland","FI","FIN",246,"Europe","Northern Europe",,150,154,
+"France","FR","FRA",250,"Europe","Western Europe",,150,155,
+"French Guiana","GF","GUF",254,"Americas","Latin America and the Caribbean","South America",19,419,5
+"French Polynesia","PF","PYF",258,"Oceania","Polynesia",,9,61,
+"French Southern Territories","TF","ATF",260,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Gabon","GA","GAB",266,"Africa","Sub-Saharan Africa","Middle Africa",2,202,17
+"Gambia","GM","GMB",270,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Georgia","GE","GEO",268,"Asia","Western Asia",,142,145,
+"Germany","DE","DEU",276,"Europe","Western Europe",,150,155,
+"Ghana","GH","GHA",288,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Gibraltar","GI","GIB",292,"Europe","Southern Europe",,150,39,
+"Greece","GR","GRC",300,"Europe","Southern Europe",,150,39,
+"Greenland","GL","GRL",304,"Americas","Northern America",,19,21,
+"Grenada","GD","GRD",308,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Guadeloupe","GP","GLP",312,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Guam","GU","GUM",316,"Oceania","Micronesia",,9,57,
+"Guatemala","GT","GTM",320,"Americas","Latin America and the Caribbean","Central America",19,419,13
+"Guernsey","GG","GGY",831,"Europe","Northern Europe","Channel Islands",150,154,830
+"Guinea","GN","GIN",324,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Guinea-Bissau","GW","GNB",624,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Guyana","GY","GUY",328,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Haiti","HT","HTI",332,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Heard Island and McDonald Islands","HM","HMD",334,"Oceania","Australia and New Zealand",,9,53,
+"Holy See","VA","VAT",336,"Europe","Southern Europe",,150,39,
+"Honduras","HN","HND",340,"Americas","Latin America and the Caribbean","Central America",19,419,13
+"Hong Kong","HK","HKG",344,"Asia","Eastern Asia",,142,30,
+"Hungary","HU","HUN",348,"Europe","Eastern Europe",,150,151,
+"Iceland","IS","ISL",352,"Europe","Northern Europe",,150,154,
+"India","IN","IND",356,"Asia","Southern Asia",,142,34,
+"Indonesia","ID","IDN",360,"Asia","South-eastern Asia",,142,35,
+"Iran (Islamic Republic of)","IR","IRN",364,"Asia","Southern Asia",,142,34,
+"Iraq","IQ","IRQ",368,"Asia","Western Asia",,142,145,
+"Ireland","IE","IRL",372,"Europe","Northern Europe",,150,154,
+"Isle of Man","IM","IMN",833,"Europe","Northern Europe",,150,154,
+"Israel","IL","ISR",376,"Asia","Western Asia",,142,145,
+"Italy","IT","ITA",380,"Europe","Southern Europe",,150,39,
+"Jamaica","JM","JAM",388,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Japan","JP","JPN",392,"Asia","Eastern Asia",,142,30,
+"Jersey","JE","JEY",832,"Europe","Northern Europe","Channel Islands",150,154,830
+"Jordan","JO","JOR",400,"Asia","Western Asia",,142,145,
+"Kazakhstan","KZ","KAZ",398,"Asia","Central Asia",,142,143,
+"Kenya","KE","KEN",404,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Kiribati","KI","KIR",296,"Oceania","Micronesia",,9,57,
+"Korea (Democratic People's Republic of)","KP","PRK",408,"Asia","Eastern Asia",,142,30,
+"Korea, Republic of","KR","KOR",410,"Asia","Eastern Asia",,142,30,
+"Kuwait","KW","KWT",414,"Asia","Western Asia",,142,145,
+"Kyrgyzstan","KG","KGZ",417,"Asia","Central Asia",,142,143,
+"Lao People's Democratic Republic","LA","LAO",418,"Asia","South-eastern Asia",,142,35,
+"Latvia","LV","LVA",428,"Europe","Northern Europe",,150,154,
+"Lebanon","LB","LBN",422,"Asia","Western Asia",,142,145,
+"Lesotho","LS","LSO",426,"Africa","Sub-Saharan Africa","Southern Africa",2,202,18
+"Liberia","LR","LBR",430,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Libya","LY","LBY",434,"Africa","Northern Africa",,2,15,
+"Liechtenstein","LI","LIE",438,"Europe","Western Europe",,150,155,
+"Lithuania","LT","LTU",440,"Europe","Northern Europe",,150,154,
+"Luxembourg","LU","LUX",442,"Europe","Western Europe",,150,155,
+"Macao","MO","MAC",446,"Asia","Eastern Asia",,142,30,
+"Madagascar","MG","MDG",450,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Malawi","MW","MWI",454,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Malaysia","MY","MYS",458,"Asia","South-eastern Asia",,142,35,
+"Maldives","MV","MDV",462,"Asia","Southern Asia",,142,34,
+"Mali","ML","MLI",466,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Malta","MT","MLT",470,"Europe","Southern Europe",,150,39,
+"Marshall Islands","MH","MHL",584,"Oceania","Micronesia",,9,57,
+"Martinique","MQ","MTQ",474,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Mauritania","MR","MRT",478,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Mauritius","MU","MUS",480,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Mayotte","YT","MYT",175,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Mexico","MX","MEX",484,"Americas","Latin America and the Caribbean","Central America",19,419,13
+"Micronesia (Federated States of)","FM","FSM",583,"Oceania","Micronesia",,9,57,
+"Moldova, Republic of","MD","MDA",498,"Europe","Eastern Europe",,150,151,
+"Monaco","MC","MCO",492,"Europe","Western Europe",,150,155,
+"Mongolia","MN","MNG",496,"Asia","Eastern Asia",,142,30,
+"Montenegro","ME","MNE",499,"Europe","Southern Europe",,150,39,
+"Montserrat","MS","MSR",500,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Morocco","MA","MAR",504,"Africa","Northern Africa",,2,15,
+"Mozambique","MZ","MOZ",508,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Myanmar","MM","MMR",104,"Asia","South-eastern Asia",,142,35,
+"Namibia","NA","NAM",516,"Africa","Sub-Saharan Africa","Southern Africa",2,202,18
+"Nauru","NR","NRU",520,"Oceania","Micronesia",,9,57,
+"Nepal","NP","NPL",524,"Asia","Southern Asia",,142,34,
+"Netherlands","NL","NLD",528,"Europe","Western Europe",,150,155,
+"New Caledonia","NC","NCL",540,"Oceania","Melanesia",,9,54,
+"New Zealand","NZ","NZL",554,"Oceania","Australia and New Zealand",,9,53,
+"Nicaragua","NI","NIC",558,"Americas","Latin America and the Caribbean","Central America",19,419,13
+"Niger","NE","NER",562,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Nigeria","NG","NGA",566,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Niue","NU","NIU",570,"Oceania","Polynesia",,9,61,
+"Norfolk Island","NF","NFK",574,"Oceania","Australia and New Zealand",,9,53,
+"North Macedonia","MK","MKD",807,"Europe","Southern Europe",,150,39,
+"Northern Mariana Islands","MP","MNP",580,"Oceania","Micronesia",,9,57,
+"Norway","NO","NOR",578,"Europe","Northern Europe",,150,154,
+"Oman","OM","OMN",512,"Asia","Western Asia",,142,145,
+"Pakistan","PK","PAK",586,"Asia","Southern Asia",,142,34,
+"Palau","PW","PLW",585,"Oceania","Micronesia",,9,57,
+"Palestine, State of","PS","PSE",275,"Asia","Western Asia",,142,145,
+"Panama","PA","PAN",591,"Americas","Latin America and the Caribbean","Central America",19,419,13
+"Papua New Guinea","PG","PNG",598,"Oceania","Melanesia",,9,54,
+"Paraguay","PY","PRY",600,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Peru","PE","PER",604,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Philippines","PH","PHL",608,"Asia","South-eastern Asia",,142,35,
+"Pitcairn","PN","PCN",612,"Oceania","Polynesia",,9,61,
+"Poland","PL","POL",616,"Europe","Eastern Europe",,150,151,
+"Portugal","PT","PRT",620,"Europe","Southern Europe",,150,39,
+"Puerto Rico","PR","PRI",630,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Qatar","QA","QAT",634,"Asia","Western Asia",,142,145,
+"Réunion","RE","REU",638,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Romania","RO","ROU",642,"Europe","Eastern Europe",,150,151,
+"Russian Federation","RU","RUS",643,"Europe","Eastern Europe",,150,151,
+"Rwanda","RW","RWA",646,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Saint Barthélemy","BL","BLM",652,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Saint Helena, Ascension and Tristan da Cunha","SH","SHN",654,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Saint Kitts and Nevis","KN","KNA",659,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Saint Lucia","LC","LCA",662,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Saint Martin (French part)","MF","MAF",663,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Saint Pierre and Miquelon","PM","SPM",666,"Americas","Northern America",,19,21,
+"Saint Vincent and the Grenadines","VC","VCT",670,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Samoa","WS","WSM",882,"Oceania","Polynesia",,9,61,
+"San Marino","SM","SMR",674,"Europe","Southern Europe",,150,39,
+"Sao Tome and Principe","ST","STP",678,"Africa","Sub-Saharan Africa","Middle Africa",2,202,17
+"Saudi Arabia","SA","SAU",682,"Asia","Western Asia",,142,145,
+"Senegal","SN","SEN",686,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Serbia","RS","SRB",688,"Europe","Southern Europe",,150,39,
+"Seychelles","SC","SYC",690,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Sierra Leone","SL","SLE",694,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Singapore","SG","SGP",702,"Asia","South-eastern Asia",,142,35,
+"Sint Maarten (Dutch part)","SX","SXM",534,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Slovakia","SK","SVK",703,"Europe","Eastern Europe",,150,151,
+"Slovenia","SI","SVN",705,"Europe","Southern Europe",,150,39,
+"Solomon Islands","SB","SLB",90,"Oceania","Melanesia",,9,54,
+"Somalia","SO","SOM",706,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"South Africa","ZA","ZAF",710,"Africa","Sub-Saharan Africa","Southern Africa",2,202,18
+"South Georgia and the South Sandwich Islands","GS","SGS",239,"Americas","Latin America and the Caribbean","South America",19,419,5
+"South Sudan","SS","SSD",728,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Spain","ES","ESP",724,"Europe","Southern Europe",,150,39,
+"Sri Lanka","LK","LKA",144,"Asia","Southern Asia",,142,34,
+"Sudan","SD","SDN",729,"Africa","Northern Africa",,2,15,
+"Suriname","SR","SUR",740,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Svalbard and Jan Mayen","SJ","SJM",744,"Europe","Northern Europe",,150,154,
+"Sweden","SE","SWE",752,"Europe","Northern Europe",,150,154,
+"Switzerland","CH","CHE",756,"Europe","Western Europe",,150,155,
+"Syrian Arab Republic","SY","SYR",760,"Asia","Western Asia",,142,145,
+"Taiwan, Province of China","TW","TWN",158,"Asia","Eastern Asia",,142,30,
+"Tajikistan","TJ","TJK",762,"Asia","Central Asia",,142,143,
+"Tanzania, United Republic of","TZ","TZA",834,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Thailand","TH","THA",764,"Asia","South-eastern Asia",,142,35,
+"Timor-Leste","TL","TLS",626,"Asia","South-eastern Asia",,142,35,
+"Togo","TG","TGO",768,"Africa","Sub-Saharan Africa","Western Africa",2,202,11
+"Tokelau","TK","TKL",772,"Oceania","Polynesia",,9,61,
+"Tonga","TO","TON",776,"Oceania","Polynesia",,9,61,
+"Trinidad and Tobago","TT","TTO",780,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Tunisia","TN","TUN",788,"Africa","Northern Africa",,2,15,
+"Turkey","TR","TUR",792,"Asia","Western Asia",,142,145,
+"Turkmenistan","TM","TKM",795,"Asia","Central Asia",,142,143,
+"Turks and Caicos Islands","TC","TCA",796,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Tuvalu","TV","TUV",798,"Oceania","Polynesia",,9,61,
+"Uganda","UG","UGA",800,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Ukraine","UA","UKR",804,"Europe","Eastern Europe",,150,151,
+"United Arab Emirates","AE","ARE",784,"Asia","Western Asia",,142,145,
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR",826,"Europe","Northern Europe",,150,154,
+"United States of America","US","USA",840,"Americas","Northern America",,19,21,
+"United States Minor Outlying Islands","UM","UMI",581,"Oceania","Micronesia",,9,57,
+"Uruguay","UY","URY",858,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Uzbekistan","UZ","UZB",860,"Asia","Central Asia",,142,143,
+"Vanuatu","VU","VUT",548,"Oceania","Melanesia",,9,54,
+"Venezuela (Bolivarian Republic of)","VE","VEN",862,"Americas","Latin America and the Caribbean","South America",19,419,5
+"Viet Nam","VN","VNM",704,"Asia","South-eastern Asia",,142,35,
+"Virgin Islands (British)","VG","VGB",92,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Virgin Islands (U.S.)","VI","VIR",850,"Americas","Latin America and the Caribbean","Caribbean",19,419,29
+"Wallis and Futuna","WF","WLF",876,"Oceania","Polynesia",,9,61,
+"Western Sahara","EH","ESH",732,"Africa","Northern Africa",,2,15,
+"Yemen","YE","YEM",887,"Asia","Western Asia",,142,145,
+"Zambia","ZM","ZMB",894,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14
+"Zimbabwe","ZW","ZWE",716,"Africa","Sub-Saharan Africa","Eastern Africa",2,202,14

@@ -1,8 +1,9 @@
-# Fontes de dados sobre COVID-19 na CPLP, `dados-v1`
-**Referências de APIs para aplicações relacionadas ao Coronavirus COVID-19. Foco
-na CPLP - Comunidade dos Países de Língua Portuguesa:** Angola 🇦🇴, Brasil 🇧🇷,
-Cabo Verde 🇨🇻, Guiné Equatorial 🇬🇶, Guiné-Bissau 🇬🇼, Macau 🇲🇴,
-Moçambique 🇲🇿, Portugal 🇵🇹, São Tomé e Príncipe 🇵🇹 e Timor-Leste 🇹🇱.
+# Dados para aplicações relacionadas a COVID-19 na CPLP, `dados-v1`
+**Referências de APIs e conjuntos de dados para aplicações relacionadas ao
+Coronavirus COVID-19. Foco na CPLP - Comunidade dos Países de Língua
+Portuguesa:** Angola 🇦🇴, Brasil 🇧🇷, Cabo Verde 🇨🇻, Guiné Equatorial 🇬🇶,
+Guiné-Bissau 🇬🇼, Macau 🇲🇴, Moçambique 🇲🇿, Portugal 🇵🇹, São Tomé e Príncipe
+🇵🇹 e Timor-Leste 🇹🇱.
 
 Para ver apenas dados criados especialmente pelo
 [@covid-taskforce-cplp](https://github.com/covid-taskforce-cplp) acesse a pasta
@@ -26,6 +27,9 @@ Para ver apenas dados criados especialmente pelo
         - [postwoman.io](#postwomanio)
         - [postman](#postman)
         - [insomnia.rest](#insomniarest)
+    - [Extensões para o VSCode](#extensões-para-o-vscode)
+        - [RandomFractalsInc.vscode-data-preview](#randomfractalsincvscode-data-preview)
+        - [khaeransori.json2csv](#khaeransorijson2csv)
 
 <!-- /TOC -->
 
@@ -96,6 +100,10 @@ específicos do Brasil, use <https://brasil.io/dataset/covid19/>.**
 de uso de ferramentas que podem ser úteis caso você já não tenha algun fluxo de
 trabalho (usando ou não aplicativos) para certos tipos de ações**.
 
+<!--
+https://github.com/frictionlessdata/datapackage-js
+-->
+
 ### Para debugar APIs
 <!-- https://techbeacon.com/app-dev-testing/11-top-open-source-api-testing-tools-what-your-team-needs-know -->
 
@@ -114,3 +122,24 @@ Ferramenta popular para testar APIs. Requer instalação e criar conta.
 - Site: <https://insomnia.rest/>
 
 Alternativa ao Postman.
+
+### Extensões para o VSCode
+
+#### RandomFractalsInc.vscode-data-preview
+- **GitHub**: <https://github.com/RandomFractals/vscode-data-preview>
+- **Market Place**: <https://marketplace.visualstudio.com/items?itemName=RandomFractalsInc.vscode-data-preview>
+- **Comando para instalar (Ctrl + P)**: `ext install RandomFractalsInc.vscode-data-preview`
+
+#### khaeransori.json2csv
+- **GitHub**: <https://github.com/khaeransori/vscode-json2csv>
+- **Market Place**: <https://marketplace.visualstudio.com/items?itemName=khaeransori.json2csv>
+- **Comando para instalar (Ctrl + P)**: `ext install khaeransori.json2csv`
+
+Uso: 
+- com um arquivo CSV aberto, aperte `F1` e escolha _Convert JSON to CSV_
+- com um arquivo JSON aberto, aperte `F1` e escolha _Convert CSV to JSON_
+ 
+# TODO
+- Implementar Data Package format <https://frictionlessdata.io/data-packages/>
+  - https://frictionlessdata.io/specs/data-package/
+  - https://data.okfn.org/tools/view

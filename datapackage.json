@@ -1,0 +1,86 @@
+{
+"name": "covid-taskforce-cplp-dados-v1",
+"title": "Dados para aplicações relacionadas a COVID-19 na CPLP",
+"licenses": [
+  {
+    "url": "http://opendatacommons.org/licenses/pddl/",
+    "name": "Open Data Commons Public Domain",
+    "version": "1.0",
+    "id": "odc-pddl"
+  }
+],
+"sources": [],
+"resources": [
+  {
+    "path": "data/countries.csv",
+    "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string",
+            "format": "default",
+            "description": "Name of country in English"
+          },
+          {
+            "name": "alpha-2",
+            "type": "string",
+            "format": "default",
+            "description": "ISO 3166-1 alpha-2 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2"
+          },
+          {
+            "name": "alpha-3",
+            "type": "string",
+            "format": "default",
+            "description": "ISO 3166-1 alpha-3 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3"
+          },
+          {
+            "name": "country-code",
+            "type": "string",
+            "format": "default",
+            "description": "ISO 3166-1 numeric https://en.wikipedia.org/wiki/ISO_3166-1_numeric"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "format": "default",
+            "description": "region"
+          },
+          {
+            "name": "sub-region",
+            "type": "string",
+            "format": "default",
+            "description": "sub-region"
+          },
+          {
+            "name": "intermediate-region",
+            "type": "string",
+            "format": "default",
+            "description": "intermediate-region"
+          },
+          {
+            "name": "region-code",
+            "type": "string",
+            "format": "default",
+            "description": "region-code"
+          },
+          {
+            "name": "sub-region-code",
+            "type": "string",
+            "format": "default",
+            "description": "sub-region-code"
+          },
+          {
+            "name": "intermediate-region-code",
+            "type": "string",
+            "format": "default",
+            "description": "intermediate-region-code"
+          }
+        ],
+        "primarykey" : "alpha-3",
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}
