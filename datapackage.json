@@ -110,6 +110,114 @@
           ""
         ]
       }
+    },
+    {
+      "name": "brasil-populacao-estimada-2019",
+      "path": "https://raw.githubusercontent.com/turicas/covid19-br/master/data/populacao-estimada-2019.csv",
+      "profile": "tabular-data-resource",
+      "licenses": [{
+        "name": "CC-BY-SA-4.0",
+        "path": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "title": "Creative Commons Attribution Share-Alike 4.0"
+      }],
+      "schema": {
+        "fields": [
+          {
+            "name": "uf",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "codigo_uf",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "codigo_municipio",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "municipio",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "populacao_estimada",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "covid-casos-brasil",
+      "path": "https://brasil.io/dataset/covid19/caso?format=csv",
+      "profile": "tabular-data-resource",
+      "licenses": [{
+        "name": "CC-BY-SA-4.0",
+        "path": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "title": "Creative Commons Attribution Share-Alike 4.0"
+      }],
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "place_type",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "confirmed",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "deaths",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "is_last",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "estimated_population_2019",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "city_ibge_code",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "confirmed_per_100k_inhabitants",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "death_rate",
+            "type": "any",
+            "format": "default"
+          }
+        ]
+      }
     }
   ]
 }

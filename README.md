@@ -18,12 +18,15 @@ pelo [@covid-taskforce-cplp](https://github.com/covid-taskforce-cplp) acesse <ht
             - [NovelCOVID/API](#novelcovidapi)
         - [Brasil](#brasil)
             - [brasil.io](#brasilio)
+    - [Hospital, dados relacionados (*)](#hospital-dados-relacionados-)
     - [Glossario (*)](#glossario-)
     - [População, por faixa de idade (*)](#população-por-faixa-de-idade-)
 - [Fontes de informação, outros](#fontes-de-informação-outros)
     - [datasus.saude.gov.br](#datasussaudegovbr)
     - [Por documentar](#por-documentar)
 - [Ferramentas de Apoio](#ferramentas-de-apoio)
+    - [Data Package](#data-package)
+        - [Criador de campos datapackage.json](#criador-de-campos-datapackagejson)
     - [Para debugar APIs](#para-debugar-apis)
         - [postwoman.io](#postwomanio)
         - [postman](#postman)
@@ -80,6 +83,12 @@ específicos do Brasil, use <https://brasil.io/dataset/covid19/>.**
 - **Painel**: <https://covid.saude.gov.br/>
 -->
 
+### Hospital, dados relacionados (*)
+
+> Não implementado. Ver também:
+> - <https://data.humdata.org/dataset/world-bank-indicators-of-interest-to-the-covid-19-outbreak>
+> - https://datasus.saude.gov.br/>
+
 ### Glossario (*)
 
 > Potencialmente converter um ou mais dos seguintes recursos para .csv/.json e
@@ -120,6 +129,15 @@ trabalho (usando ou não aplicativos) para certos tipos de ações**.
 <!--
 https://github.com/frictionlessdata/datapackage-js
 -->
+
+### Data Package
+
+#### Criador de campos datapackage.json
+- **Site**: <https://create.frictionlessdata.io/>
+
+Este website tanto permite criar um datapackage.json do zero, como ao fornecer
+uma URL (por exemplo, para um arquivo .csv online) e clicar no campo "load"
+vai carregar o cabecalho do .csv e permitir que você o documente.
 
 ### Para debugar APIs
 <!-- https://techbeacon.com/app-dev-testing/11-top-open-source-api-testing-tools-what-your-team-needs-know -->
