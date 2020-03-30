@@ -81,6 +81,35 @@
           ""
         ]
       }
+    },
+    {
+    "path": "data/covid-country-dashboards.csv",
+    "schema": {
+        "fields": [
+          {
+            "name": "country",
+            "type": "string",
+            "format": "default",
+            "description": "ISO 3166-1 alpha-3 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "format": "default",
+            "description": "Nome do Dashboard"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "format": "uri",
+            "description": "URL do dashboard"
+          }
+        ],
+        "primarykey" : "name",
+        "missingValues": [
+          ""
+        ]
+      }
     }
   ]
 }

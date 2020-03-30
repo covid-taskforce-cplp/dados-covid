@@ -1,6 +1,7 @@
 # /dados-v1/data/
 
-> Sem dados no momento
+**Para pré-visualisar com DataPackage Viewer os dados criados especialmente
+pelo [@covid-taskforce-cplp](https://github.com/covid-taskforce-cplp) acesse <https://data.okfn.org/tools/view?url=https%3A%2F%2Fgithub.com%2Fcovid-taskforce-cplp%2Fdados-v1>**
 
 ## Sobre resiliência a grande quantidade de acessos de covid.etica.ai/dados-v1
 

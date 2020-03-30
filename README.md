@@ -5,23 +5,24 @@ Portuguesa:** Angola 🇦🇴, Brasil 🇧🇷, Cabo Verde 🇨🇻, Guiné Equa
 Guiné-Bissau 🇬🇼, Macau 🇲🇴, Moçambique 🇲🇿, Portugal 🇵🇹, São Tomé e Príncipe
 🇵🇹 e Timor-Leste 🇹🇱.
 
-Para ver apenas dados criados especialmente pelo
-[@covid-taskforce-cplp](https://github.com/covid-taskforce-cplp) acesse a pasta
-[/dados-v1/data/](data/).
+**Para pré-visualisar com DataPackage Viewer os dados criados especialmente
+pelo [@covid-taskforce-cplp](https://github.com/covid-taskforce-cplp) acesse <https://data.okfn.org/tools/view?url=https%3A%2F%2Fgithub.com%2Fcovid-taskforce-cplp%2Fdados-v1>**
 
 ----
 
 <!-- TOC depthFrom:2 depthTo:5 -->
 
-- [Fontes de dados, por tema](#fontes-de-dados-por-tema)
+- [APIs](#apis)
     - [Casos de COVID-19](#casos-de-covid-19)
         - [Global](#global)
             - [NovelCOVID/API](#novelcovidapi)
         - [Brasil](#brasil)
             - [brasil.io](#brasilio)
-            - [covid.saude.gov.br](#covidsaudegovbr)
-    - [Hospitais](#hospitais)
-    - [TODO: Fontes de dados a serem documentadas](#todo-fontes-de-dados-a-serem-documentadas)
+    - [Glossario (*)](#glossario-)
+    - [População, por faixa de idade (*)](#população-por-faixa-de-idade-)
+- [Fontes de informação, outros](#fontes-de-informação-outros)
+    - [datasus.saude.gov.br](#datasussaudegovbr)
+    - [Por documentar](#por-documentar)
 - [Ferramentas de Apoio](#ferramentas-de-apoio)
     - [Para debugar APIs](#para-debugar-apis)
         - [postwoman.io](#postwomanio)
@@ -41,7 +42,7 @@ a nível internacional use <https://covid-19-apis.postman.com/> e, para dados
 específicos do Brasil, use <https://brasil.io/dataset/covid19/>.**
 -->
 
-## Fontes de dados, por tema
+## APIs
 
 ### Casos de COVID-19
 > **Nossa recomendação padrão**: construa APIs usando uma opção que tenha dados
@@ -66,25 +67,41 @@ específicos do Brasil, use <https://brasil.io/dataset/covid19/>.**
 #### Brasil
 
 > **Nossa recomendação padrão (2020-03-30)**: use a API do brasil.io e não perca
-  tempo tentando minerar os dados do covid.saude.gov.br.
+  tempo tentando minerar os dados do <https://covid.saude.gov.br/>.
 
 ##### brasil.io
 - **Painel**: <https://brasil.io/api/dataset/covid19>
 - **Documentação API**: <https://brasil.io/dataset/covid19/caso>
 - **GitHub**: <https://github.com/turicas/covid19-br>
 
-##### covid.saude.gov.br
+<!--
+ ##### covid.saude.gov.br
 - **GitHub**: Não aplicável
 - **Painel**: <https://covid.saude.gov.br/>
+-->
 
-### Hospitais
+### Glossario (*)
 
-(...)
+> Potencialmente converter um ou mais dos seguintes recursos para .csv/.json e
+> dar créditos às fontes:
+> - <https://www.kff.org/glossary/covid-19-outbreak-glossary/>
+> - <https://www.rochester.edu/coronavirus-update/terminology/>
+> - <https://www.cbc.ca/news/health/covid19-glossary-1.5510230>
+> - <https://www.google.com/search?q=covid+glossary>
 
-### TODO: Fontes de dados a serem documentadas
+
+### População, por faixa de idade (*)
+> Não implementado
+
+## Fontes de informação, outros
+
+### datasus.saude.gov.br
+- **Site**: <https://datasus.saude.gov.br/>
+
+### Por documentar
 
 - <https://datasus.saude.gov.br/>
-- <https://brasil.io/dataset/covid19/caso>
+- <https://ourworldindata.org/coronavirus>
 - <http://data.un.org/Host.aspx?Content=API>
 - <https://data.humdata.org/>
   - <https://hxlstandard.org/>
@@ -139,7 +156,9 @@ Uso:
 - com um arquivo CSV aberto, aperte `F1` e escolha _Convert JSON to CSV_
 - com um arquivo JSON aberto, aperte `F1` e escolha _Convert CSV to JSON_
  
-# TODO
-- Implementar Data Package format <https://frictionlessdata.io/data-packages/>
+<!--
+  # TODO
+- ~Implementar Data Package format <https://frictionlessdata.io/data-packages/>~
   - https://frictionlessdata.io/specs/data-package/
   - https://data.okfn.org/tools/view
+-->
