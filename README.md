@@ -1,24 +1,36 @@
-# covid.etica.ai/dados-v1
-**Repositório que contém dados pré-processados relacionados ao COVID-19 no
-contexto de países da CPLP, bem como links de outros webservices que
-recomendamos**
+# Fontes de dados sobre COVID-19 na CPLP, `dados-v1`
+**Referências de APIs para aplicações relacionadas ao Coronavirus COVID-19. Foco
+na CPLP - Comunidade dos Países de Língua Portuguesa:** Angola 🇦🇴, Brasil 🇧🇷,
+Cabo Verde 🇨🇻, Guiné Equatorial 🇬🇶, Guiné-Bissau 🇬🇼, Macau 🇲🇴,
+Moçambique 🇲🇿, Portugal 🇵🇹, São Tomé e Príncipe 🇵🇹 e Timor-Leste 🇹🇱.
 
-**Sobre resiliência a grande quantidade de acessos**:
+Para ver apenas dados criados especialmente pelo
+[@covid-taskforce-cplp](https://github.com/covid-taskforce-cplp) acesse a pasta
+[/dados-v1/data/](data/).
 
-Os arquivos acessados via <https://covid.etica.ai/dados-v1/>, além de terem sido
-pré-processados e armazeados em arquivos simples
-[no nosso repositório de GitHub](https://github.com/covid-taskforce-cplp/dados-v1),
-também estão sendo servidos por terminação HTTPS e cacheamento da CloudFlare.
+----
 
-> Em caso de extreman necessidade de um mesmo IP, você pode acessar sem
-  os dados forçando IP de `covid.etica.ai` apontar para
-  `covid-taskforce-cplp.github.io`. Acesso não HTTPS também está liberado.
+<!-- TOC depthFrom:2 depthTo:5 -->
 
-## Fontes de dados, por conteúdo
+- [Fontes de dados, por tema](#fontes-de-dados-por-tema)
+    - [TL;DR:](#tldr)
+    - [Situação de casos confirmados, suspeitos, recuperados e óbitos](#situação-de-casos-confirmados-suspeitos-recuperados-e-óbitos)
+- [TODO: Por documentar](#todo-por-documentar)
+
+<!-- /TOC -->
+
+----
+
+## Fontes de dados, por tema
+
+### TL;DR:
+**Enquanto este repositório não está mais organizado recomendamos que para dados
+a nível internacional use <https://covid-19-apis.postman.com/> e, para dados
+específicos do Brasil, use <https://brasil.io/dataset/covid19/>.**
 
 ### Situação de casos confirmados, suspeitos, recuperados e óbitos
 
-### TODO...
+## TODO: Por documentar
 
 - <https://datasus.saude.gov.br/>
 - <https://brasil.io/dataset/covid19/caso>
@@ -26,3 +38,7 @@ também estão sendo servidos por terminação HTTPS e cacheamento da CloudFlare
 - <https://data.humdata.org/>
   - <https://hxlstandard.org/>
 - <https://covid-19-apis.postman.com/>
+
+<!--
+- https://github.com/github/covid19-dashboard
+-->
