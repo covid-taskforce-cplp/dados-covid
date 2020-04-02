@@ -114,42 +114,42 @@
   {
     "name": "population-prospects-thousands-2020",
     "path": "data/population-prospects-thousands-2020.csv",
-    "description": "Total population, both sexes combined (thousands); World Population Prospects: The 2019 Revision; Source:  United Nations Population Division. Downloaded from http://data.un.org/Data.aspx?d=PopDiv&f=variableID%3a12%3btimeID%3a85%3bvarID%3a2&c=1,2,4,6,7&s=_crEngNameOrderBy:asc,_timeEngNameOrderBy:desc,_varEngNameOrderBy:asc&v=1",
+    "description": "Total population, both sexes combined (thousands); World Population Prospects: The 2019 Revision; Source: United Nations Population Division. Column names renamed to be url friendly. Downloaded from http://data.un.org/Data.aspx?d=PopDiv&f=variableID%3a12%3btimeID%3a85%3bvarID%3a2&c=1,2,4,6,7&s=_crEngNameOrderBy:asc,_timeEngNameOrderBy:desc,_varEngNameOrderBy:asc&v=1",
     "profile": "tabular-data-resource",
     "schema": {
       "fields": [
         {
-          "name": "Country or Area Code",
+          "name": "country-or-area-code",
           "type": "number",
           "format": "default",
           "description": "ISO 3166-1 numeric for countries, custom code for regions (requires revision on this description)"
         },
         {
-          "name": "Country or Area",
+          "name": "country-or-area",
           "type": "string",
           "format": "default",
           "description": "Country or Area name, in English"
         },
         {
-          "name": "Year(s)",
+          "name": "years",
           "type": "string",
           "format": "default",
           "description": "Year of the population prospect"
         },
         {
-          "name": "Variant",
+          "name": "variant",
           "type": "string",
           "format": "default",
           "description": "Method of the population prospect calculation"
         },
         {
-          "name": "Value",
+          "name": "value",
           "type": "number",
           "format": "default",
           "description": "Population x 1000"
         }
       ],
-      "primarykey" : "Country or Area Code",
+      "primarykey" : "country-or-area-code",
       "missingValues": [
         ""
       ]

@@ -1,16 +1,20 @@
 # Dados para aplicações relacionadas a COVID-19 na CPLP, `dados-v1`
-[![goodtables.io](https://goodtables.io/badge/github/covid-taskforce-cplp/dados-v1.svg)](https://goodtables.io/github/covid-taskforce-cplp/dados-v1)
+[![goodtables.io](https://goodtables.io/badge/github/covid-taskforce-cplp/dados-v1.svg?1)](https://goodtables.io/github/covid-taskforce-cplp/dados-v1)
 **Referências de APIs e conjuntos de dados para aplicações relacionadas ao
 Coronavirus COVID-19. Foco na CPLP - Comunidade dos Países de Língua
 Portuguesa:** Angola 🇦🇴, Brasil 🇧🇷, Cabo Verde 🇨🇻, Guiné Equatorial 🇬🇶,
 Guiné-Bissau 🇬🇼, Macau 🇲🇴, Moçambique 🇲🇿, Portugal 🇵🇹, São Tomé e Príncipe
 🇵🇹 e Timor-Leste 🇹🇱.
 
-<!-- ![OpenData](https://assets.okfn.org/images/buttons/od_80x15_blue.png) -->
+<!--
+Google Docs:
+  - README: https://docs.google.com/document/d/1pVZis7QkvCfdZu0aTJUE1rSB3ICKyGdkBM_9h3T8soM/edit
+  - Pasta deste repositório: https://drive.google.com/drive/u/1/folders/1v8tQ3fV9r7u4KZxRtpIRKyxaKCR7Ok63
+-->
 
 Este repositóri usa padrão [DataPackage](https://specs.frictionlessdata.io/).
-**Pré-visualize usando o [DataPackage Viewer: /covid-taskforce-cplp/dados-v1](https://data.okfn.org/tools/view?url=https%3A%2F%2Fgithub.com%2Fcovid-taskforce-cplp%2Fdados-v1)**
-
+**Pré-visualize usando o [DataPackage Viewer: /covid-taskforce-cplp/dados-v1](https://data.okfn.org/tools/view?url=https%3A%2F%2Fgithub.com%2Fcovid-taskforce-cplp%2Fdados-v1)**.
+_Vide [bug #11](https://github.com/covid-taskforce-cplp/dados-v1/issues/11)_ 
 
 ----
 
@@ -40,12 +44,7 @@ Este repositóri usa padrão [DataPackage](https://specs.frictionlessdata.io/).
 <!-- /TOC -->
 
 ----
-<!--
-  ## TL;DR:
-**Enquanto este repositório não está mais organizado recomendamos que para dados
-a nível internacional use <https://covid-19-apis.postman.com/> e, para dados
-específicos do Brasil, use <https://brasil.io/dataset/covid19/>.**
--->
+
 
 ## APIs
 
