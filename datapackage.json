@@ -11,6 +11,191 @@
 "sources": [],
 "resources": [
   {
+  "name": "covid-country-dashboards",
+  "path": "data/covid-country-dashboards.csv",
+  "profile": "tabular-data-resource",
+  "schema": {
+      "fields": [
+        {
+          "name": "country",
+          "type": "string",
+          "format": "default",
+          "description": "ISO 3166-1 alpha-3 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "format": "default",
+          "description": "Nome do Dashboard"
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "format": "uri",
+          "description": "URL do dashboard"
+        }
+      ],
+      "primarykey" : "name",
+      "missingValues": [
+        ""
+      ]
+    }
+  },
+  {
+    "name": "covid-casos-brasil",
+    "path": "https://brasil.io/dataset/covid19/caso?format=csv",
+    "pathType": "remote",
+    "profile": "tabular-data-resource",
+    "licenses": [{
+      "name": "CC-BY-SA-4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "title": "Creative Commons Attribution Share-Alike 4.0"
+    }],
+    "schema": {
+      "fields": [
+        {
+          "name": "date",
+          "type": "string",
+          "format": "default"
+        },
+        {
+          "name": "state",
+          "type": "string",
+          "format": "default"
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "format": "default"
+        },
+        {
+          "name": "place_type",
+          "type": "string",
+          "format": "default"
+        },
+        {
+          "name": "confirmed",
+          "type": "integer",
+          "format": "default"
+        },
+        {
+          "name": "deaths",
+          "type": "integer",
+          "format": "default"
+        },
+        {
+          "name": "is_last",
+          "type": "string",
+          "format": "default"
+        },
+        {
+          "name": "estimated_population_2019",
+          "type": "number",
+          "format": "default"
+        },
+        {
+          "name": "city_ibge_code",
+          "type": "integer",
+          "format": "default"
+        },
+        {
+          "name": "confirmed_per_100k_inhabitants",
+          "type": "number",
+          "format": "default"
+        },
+        {
+          "name": "death_rate",
+          "type": "any",
+          "format": "default"
+        }
+      ]
+    }
+  },
+  {
+    "name": "population-prospects-thousands-2020",
+    "path": "data/population-prospects-thousands-2020.csv",
+    "description": "Total population, both sexes combined (thousands); World Population Prospects: The 2019 Revision; Source:  United Nations Population Division. Downloaded from http://data.un.org/Data.aspx?d=PopDiv&f=variableID%3a12%3btimeID%3a85%3bvarID%3a2&c=1,2,4,6,7&s=_crEngNameOrderBy:asc,_timeEngNameOrderBy:desc,_varEngNameOrderBy:asc&v=1",
+    "profile": "tabular-data-resource",
+    "schema": {
+      "fields": [
+        {
+          "name": "Country or Area Code",
+          "type": "number",
+          "format": "default",
+          "description": "ISO 3166-1 numeric for countries, custom code for regions (requires revision on this description)"
+        },
+        {
+          "name": "Country or Area",
+          "type": "string",
+          "format": "default",
+          "description": "Country or Area name, in English"
+        },
+        {
+          "name": "Year(s)",
+          "type": "string",
+          "format": "default",
+          "description": "Year of the population prospect"
+        },
+        {
+          "name": "Variant",
+          "type": "string",
+          "format": "default",
+          "description": "Method of the population prospect calculation"
+        },
+        {
+          "name": "Value",
+          "type": "number",
+          "format": "default",
+          "description": "Population x 1000"
+        }
+      ],
+      "primarykey" : "Country or Area Code",
+      "missingValues": [
+        ""
+      ]
+    }
+  },
+  {
+    "name": "brasil-populacao-estimada-2019",
+    "path": "https://raw.githubusercontent.com/turicas/covid19-br/master/data/populacao-estimada-2019.csv",
+    "pathType": "remote",
+    "profile": "tabular-data-resource",
+    "licenses": [{
+      "name": "CC-BY-SA-4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "title": "Creative Commons Attribution Share-Alike 4.0"
+    }],
+    "schema": {
+      "fields": [
+        {
+          "name": "uf",
+          "type": "string",
+          "format": "default"
+        },
+        {
+          "name": "codigo_uf",
+          "type": "integer",
+          "format": "default"
+        },
+        {
+          "name": "codigo_municipio",
+          "type": "integer",
+          "format": "default"
+        },
+        {
+          "name": "municipio",
+          "type": "string",
+          "format": "default"
+        },
+        {
+          "name": "populacao_estimada",
+          "type": "integer",
+          "format": "default"
+        }
+      ]
+    }
+  },
+  {
     "name": "countries",
     "path": "data/countries.csv",
     "profile": "tabular-data-resource",
@@ -80,189 +265,6 @@
         "primarykey" : "alpha-3",
         "missingValues": [
           ""
-        ]
-      }
-    },
-    {
-    "name": "population_prospects_thousands_2020",
-    "path": "data/population_prospects_thousands_2020.csv",
-    "description": "Total population, both sexes combined (thousands); World Population Prospects: The 2019 Revision; Source:  United Nations Population Division. Downloaded from http://data.un.org/Data.aspx?d=PopDiv&f=variableID%3a12%3btimeID%3a85%3bvarID%3a2&c=1,2,4,6,7&s=_crEngNameOrderBy:asc,_timeEngNameOrderBy:desc,_varEngNameOrderBy:asc&v=1",
-    "profile": "tabular-data-resource",
-    "schema": {
-        "fields": [
-          {
-            "name": "Country or Area Code",
-            "type": "number",
-            "format": "default",
-            "description": "ISO 3166-1 numeric for countries, custom code for regions (requires revision on this description)"
-          },
-          {
-            "name": "Country or Area",
-            "type": "string",
-            "format": "default",
-            "description": "Country or Area name, in English"
-          },
-          {
-            "name": "Year(s)",
-            "type": "string",
-            "format": "default",
-            "description": "Year of the population prospect"
-          },
-          {
-            "name": "Variant",
-            "type": "string",
-            "format": "default",
-            "description": "Method of the population prospect calculation"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "format": "default",
-            "description": "Population x 1000"
-          }
-        ],
-        "primarykey" : "Country or Area Code",
-        "missingValues": [
-          ""
-        ]
-      }
-    },
-    {
-    "name": "covid-country-dashboards",
-    "path": "data/covid-country-dashboards.csv",
-    "profile": "tabular-data-resource",
-    "schema": {
-        "fields": [
-          {
-            "name": "country",
-            "type": "string",
-            "format": "default",
-            "description": "ISO 3166-1 alpha-3 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3"
-          },
-          {
-            "name": "name",
-            "type": "string",
-            "format": "default",
-            "description": "Nome do Dashboard"
-          },
-          {
-            "name": "url",
-            "type": "string",
-            "format": "uri",
-            "description": "URL do dashboard"
-          }
-        ],
-        "primarykey" : "name",
-        "missingValues": [
-          ""
-        ]
-      }
-    },
-    {
-      "name": "brasil-populacao-estimada-2019",
-      "path": "https://raw.githubusercontent.com/turicas/covid19-br/master/data/populacao-estimada-2019.csv",
-      "profile": "tabular-data-resource",
-      "licenses": [{
-        "name": "CC-BY-SA-4.0",
-        "path": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "title": "Creative Commons Attribution Share-Alike 4.0"
-      }],
-      "schema": {
-        "fields": [
-          {
-            "name": "uf",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "codigo_uf",
-            "type": "integer",
-            "format": "default"
-          },
-          {
-            "name": "codigo_municipio",
-            "type": "integer",
-            "format": "default"
-          },
-          {
-            "name": "municipio",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "populacao_estimada",
-            "type": "integer",
-            "format": "default"
-          }
-        ]
-      }
-    },
-    {
-      "name": "covid-casos-brasil",
-      "path": "https://brasil.io/dataset/covid19/caso?format=csv",
-      "profile": "tabular-data-resource",
-      "licenses": [{
-        "name": "CC-BY-SA-4.0",
-        "path": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "title": "Creative Commons Attribution Share-Alike 4.0"
-      }],
-      "schema": {
-        "fields": [
-          {
-            "name": "date",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "state",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "city",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "place_type",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "confirmed",
-            "type": "integer",
-            "format": "default"
-          },
-          {
-            "name": "deaths",
-            "type": "integer",
-            "format": "default"
-          },
-          {
-            "name": "is_last",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "estimated_population_2019",
-            "type": "number",
-            "format": "default"
-          },
-          {
-            "name": "city_ibge_code",
-            "type": "integer",
-            "format": "default"
-          },
-          {
-            "name": "confirmed_per_100k_inhabitants",
-            "type": "number",
-            "format": "default"
-          },
-          {
-            "name": "death_rate",
-            "type": "any",
-            "format": "default"
-          }
         ]
       }
     }
