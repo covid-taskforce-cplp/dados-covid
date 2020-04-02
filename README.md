@@ -5,6 +5,8 @@ Portuguesa:** Angola 🇦🇴, Brasil 🇧🇷, Cabo Verde 🇨🇻, Guiné Equa
 Guiné-Bissau 🇬🇼, Macau 🇲🇴, Moçambique 🇲🇿, Portugal 🇵🇹, São Tomé e Príncipe
 🇵🇹 e Timor-Leste 🇹🇱.
 
+[![goodtables.io](https://goodtables.io/badge/github/covid-taskforce-cplp/dados-v1.svg)](https://goodtables.io/github/covid-taskforce-cplp/dados-v1)
+
 **Para pré-visualisar com DataPackage Viewer os dados criados especialmente
 pelo [@covid-taskforce-cplp](https://github.com/covid-taskforce-cplp) acesse <https://data.okfn.org/tools/view?url=https%3A%2F%2Fgithub.com%2Fcovid-taskforce-cplp%2Fdados-v1>**
 
@@ -179,4 +181,5 @@ Uso:
 - ~Implementar Data Package format <https://frictionlessdata.io/data-packages/>~
   - https://frictionlessdata.io/specs/data-package/
   - https://data.okfn.org/tools/view
+  - https://create.frictionlessdata.io/s
 -->
