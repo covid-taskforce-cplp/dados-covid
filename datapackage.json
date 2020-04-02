@@ -9,9 +9,9 @@
   }
 ],
 "sources": [],
-"profile": "tabular-data-resource",
 "resources": [
   {
+    "name": "countries",
     "path": "data/countries.csv",
     "profile": "tabular-data-resource",
     "schema": {
@@ -84,6 +84,7 @@
       }
     },
     {
+    "name": "population_prospects_thousands_2020",
     "path": "data/population_prospects_thousands_2020.csv",
     "description": "Total population, both sexes combined (thousands); World Population Prospects: The 2019 Revision; Source:  United Nations Population Division. Downloaded from http://data.un.org/Data.aspx?d=PopDiv&f=variableID%3a12%3btimeID%3a85%3bvarID%3a2&c=1,2,4,6,7&s=_crEngNameOrderBy:asc,_timeEngNameOrderBy:desc,_varEngNameOrderBy:asc&v=1",
     "profile": "tabular-data-resource",
@@ -127,6 +128,7 @@
       }
     },
     {
+    "name": "covid-country-dashboards",
     "path": "data/covid-country-dashboards.csv",
     "profile": "tabular-data-resource",
     "schema": {
@@ -253,7 +255,7 @@
           },
           {
             "name": "confirmed_per_100k_inhabitants",
-            "type": "integer",
+            "type": "number",
             "format": "default"
           },
           {
